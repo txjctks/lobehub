@@ -1,5 +1,6 @@
 {
-  "buildCommand": "pnpm run build",
+  "buildCommand": "pnpm -w run build",
+  "framework":"nextjs"
   "headers": [
     {
       "source": "/_spa/(.*)",
