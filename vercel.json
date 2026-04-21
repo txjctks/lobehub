@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm -w run build",
+  "buildCommand": "NODE_OPTIONS='--max-old-space-size=6144' pnpm -w run build",
   "framework":"nextjs",
   "headers": [
     {
